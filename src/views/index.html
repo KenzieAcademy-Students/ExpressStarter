@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Starter Code Demo</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>HTML? WHAT?!</h1>
+  <p>
+    Don't worry, we're still going to be using React for everything front-end. 
+    This is just to show that you can, in fact, render HTML directly to the 
+    browser with Express if you so choose.
+  </p>
+  <img src="./images/KALogo.png" alt="Kenzie Academy Logo"/>
+  <p>
+    Open up that inspect tool! Hover over the image element in the Elements 
+    window of the Dev Console. The <code>src</code> attribute shows 
+    <code>"./images/KALogo.png"</code>, but hovering shows <code>"http://localhost:3001/images/KALogo.png"</code>.
+  </p>
+  <p>
+    This is made possible by line 12 in the the server file. It makes all files
+    in the <code>public</code> folder accessible by simply appending the file's path
+    to the end of <code>http://localhost:3001/code>.
+  </p>
+</body>
+</html>
